@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-17T14:37:18 IST" name="Default suite" finished-at="2021-07-17T14:38:42 IST" duration-ms="84271">
+  <suite started-at="2021-07-17T20:13:07 IST" name="Default suite" finished-at="2021-07-17T20:13:58 IST" duration-ms="51305">
     <groups>
     </groups>
-    <test started-at="2021-07-17T14:37:18 IST" name="Default test" finished-at="2021-07-17T14:38:42 IST" duration-ms="84271">
-      <class name="BigdataRepository.test100AlertManage">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:BigdataRepository.test100AlertManage@4445629]" started-at="2021-07-17T14:37:18 IST" name="beforeTest" finished-at="2021-07-17T14:37:28 IST" duration-ms="9948" status="PASS">
+    <test started-at="2021-07-17T20:13:07 IST" name="Default test" finished-at="2021-07-17T20:13:58 IST" duration-ms="51305">
+      <class name="Repo.InnsightLogin2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Repo.InnsightLogin2@7a4ccb53]" started-at="2021-07-17T20:13:07 IST" name="beforeTest" finished-at="2021-07-17T20:13:19 IST" duration-ms="12269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="INNSIGHTLogin()[pri:0, instance:BigdataRepository.test100AlertManage@4445629]" started-at="2021-07-17T14:37:28 IST" name="INNSIGHTLogin" finished-at="2021-07-17T14:37:57 IST" duration-ms="29507" status="PASS">
+        <test-method signature="INNSIGHTLogin2()[pri:0, instance:Repo.InnsightLogin2@7a4ccb53]" started-at="2021-07-17T20:13:19 IST" name="INNSIGHTLogin2" finished-at="2021-07-17T20:13:58 IST" duration-ms="38822" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- INNSIGHTLogin -->
-        <test-method is-config="true" signature="creatingalert()[pri:0, instance:BigdataRepository.test100AlertManage@4445629]" started-at="2021-07-17T14:37:57 IST" name="creatingalert" finished-at="2021-07-17T14:38:42 IST" duration-ms="44724" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatingalert -->
-      </class> <!-- BigdataRepository.test100AlertManage -->
+        </test-method> <!-- INNSIGHTLogin2 -->
+      </class> <!-- Repo.InnsightLogin2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

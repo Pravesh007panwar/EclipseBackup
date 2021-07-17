@@ -19,7 +19,7 @@ public class InnsightLogin {
 	@Test
 	public void INNSIGHTLogin() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("http://192.168.2.193:8081/innsight/login_validateCredential");
+		driver.get("http://office.authshieldserver.com:8081//innsight/login_validateCredential");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.findElement(By.cssSelector("input.textbox")).sendKeys("pravesh");
