@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-17T20:13:07 IST" name="Default suite" finished-at="2021-07-17T20:13:58 IST" duration-ms="51305">
+  <suite started-at="2021-07-17T23:30:03 IST" name="Default suite" finished-at="2021-07-17T23:31:21 IST" duration-ms="77506">
     <groups>
     </groups>
-    <test started-at="2021-07-17T20:13:07 IST" name="Default test" finished-at="2021-07-17T20:13:58 IST" duration-ms="51305">
-      <class name="Repo.InnsightLogin2">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Repo.InnsightLogin2@7a4ccb53]" started-at="2021-07-17T20:13:07 IST" name="beforeTest" finished-at="2021-07-17T20:13:19 IST" duration-ms="12269" status="PASS">
+    <test started-at="2021-07-17T23:30:03 IST" name="Default test" finished-at="2021-07-17T23:31:21 IST" duration-ms="77506">
+      <class name="BigdataRepository.Test124selectchangeavatar">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:BigdataRepository.Test124selectchangeavatar@25d250c6]" started-at="2021-07-17T23:30:03 IST" name="beforeTest" finished-at="2021-07-17T23:30:18 IST" duration-ms="14921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="INNSIGHTLogin2()[pri:0, instance:Repo.InnsightLogin2@7a4ccb53]" started-at="2021-07-17T20:13:19 IST" name="INNSIGHTLogin2" finished-at="2021-07-17T20:13:58 IST" duration-ms="38822" status="PASS">
+        <test-method signature="INNSIGHTLogin2()[pri:0, instance:BigdataRepository.Test124selectchangeavatar@25d250c6]" started-at="2021-07-17T23:30:18 IST" name="INNSIGHTLogin2" finished-at="2021-07-17T23:31:12 IST" duration-ms="53950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- INNSIGHTLogin2 -->
-      </class> <!-- Repo.InnsightLogin2 -->
+        <test-method signature="EditCollection()[pri:0, instance:BigdataRepository.Test124selectchangeavatar@25d250c6]" started-at="2021-07-17T23:31:12 IST" name="EditCollection" finished-at="2021-07-17T23:31:21 IST" duration-ms="8510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCollection -->
+      </class> <!-- BigdataRepository.Test124selectchangeavatar -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

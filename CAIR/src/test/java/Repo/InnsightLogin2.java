@@ -5,10 +5,7 @@ import org.testng.annotations.Test;
 
 
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -30,21 +27,20 @@ public class InnsightLogin2 {
 	
 	public void INNSIGHTLogin2() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("http://office.authshieldserver.com:8081//innsight/login_validateCredential");
+		driver.get("http://office.authshieldserver.com:8081/innsight/login_validateCredential");
 		TimeUnit.SECONDS.sleep(15);
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getCurrentUrl());
 		driver.findElement(By.cssSelector("input.textbox")).sendKeys("pravesh");
 		driver.findElement(By.cssSelector("input.password")).sendKeys("Pravesh@3210#");
 		driver.findElement(By.cssSelector("input.loginbtn")).click();
 		
-		System.out.println("Click on Collection");
+		Thread.sleep(10000);
 		Actions a = new Actions(driver);
 		a.moveToElement(driver.findElement(By.xpath("/html/body/form/div/header/div[2]/ul/li[13]/a"))).build().perform();
         JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement collection = driver.findElement(By.xpath("/html/body/form/div/header/div[2]/ul/li[13]/a"));
 		js.executeScript("arguments[0].setAttribute('style', 'background: white; border: 2px solid red;');", collection);
-		collection.click();
+         collection.click();
+		Thread.sleep(5000);
 		
        Set<String>	mulwindow	= driver.getWindowHandles();
        ArrayList<String>  newwindow = new ArrayList<> (mulwindow);
@@ -67,7 +63,7 @@ public class InnsightLogin2 {
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver.exe");
 		c.setExperimentalOption("useAutomationExtension", false);
-		c.setExperimentalOption("excludeSwitches",Collections.singletonList("enable-automation"));  
+		//c.setExperimentalOption("excludeSwitches",Collections.singletonList("enable-automation"));  
 		driver = new ChromeDriver(c);
         
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);

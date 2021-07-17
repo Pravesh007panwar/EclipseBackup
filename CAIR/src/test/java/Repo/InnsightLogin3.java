@@ -20,7 +20,7 @@ public class InnsightLogin3 {
 	@Test
 	public void InnsightLogin() {
 
-		driver.get("http://office.authshieldserver.com:8081//innsight/login_validateCredential");
+		driver.get("http://office.authshieldserver.com:8081/innsight/login_validateCredential");
 		LoginPage login = new LoginPage(driver);
 		login.setusername().sendKeys("pravesh");
 		login.setPassword().sendKeys("Pravesh@3210#");
