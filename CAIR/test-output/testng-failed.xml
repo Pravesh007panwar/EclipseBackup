@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BigdataRepository.Test123Avatarconfiguration">
+      <class name="BigdataRepository.Test096SelectEntitiesWidgets">
         <methods>
-          <include name="Avatarconfig123"/>
           <include name="beforeTest"/>
+          <include name="SelectEntitiesWidgets"/>
         </methods>
-      </class> <!-- BigdataRepository.Test123Avatarconfiguration -->
+      </class> <!-- BigdataRepository.Test096SelectEntitiesWidgets -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
